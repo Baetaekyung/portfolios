@@ -1,0 +1,21 @@
+﻿// Decompiled with JetBrains decompiler
+// Type: BottonClick
+// Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+// MVID: 85EC555E-EE2D-4386-9B2C-9D8C60CE294D
+// Assembly location: C:\Users\tkway\Downloads\10310_Ganp\10310_Ganp\DungeonGame_Data\Managed\Assembly-CSharp.dll
+
+using UnityEngine;
+using UnityEngine.UI;
+
+#nullable disable
+public class BottonClick : MonoBehaviour
+{
+  public GameObject panel;
+  public Image image;
+  public bool isclicked;
+  public float panelOpenTime;
+  public string bottonName;
+  public WaitForSeconds wfs;
+
+  public void IsClicked() => this.isclicked = !this.isclicked;
+}
